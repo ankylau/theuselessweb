@@ -1,0 +1,68 @@
+
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<title> 无聊的网站 The Useless Web </title>
+
+		<!-- META -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The Useless Web Button... take me somewhere... useless">
+
+		<!-- Facebook -->
+		<meta property="og:title" content="无聊的网站"/>
+		<meta property="og:url" content="https://anky.cc/suiji"/>
+		<meta property="og:site_name" content="The Useless Web"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:description" content="The Useless Web Button... just press it, and find where it takes you."/>
+		<meta property="og:image" content="http://www.theuselessweb.com/share-image-small.png"/>
+
+		<!-- CSS -->
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<!--link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'-->
+
+		<!-- JS -->
+		<script type="text/javascript" src="js/uselessweb.js?v=2" charset="UTF-8"></script>
+		<script type="text/javascript" src="js/libs/utils.js"></script>
+
+		<!-- MISC -->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-35944549-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</head>
+	<body>
+
+		<hgroup>
+			<h1> 带我 </h1>
+			<h2 id='joint'> 去一个 </h2>
+			<h3> 无聊 </h3>
+			<h4> 的网站 </h4>
+			<h5>&rarr;<button id='button'>出发</button>&larr;</h5>
+			<script>
+				var uselessWebButton = new uselessWebButton( document.getElementById( 'button' ) ); 
+			</script>
+			
+		</hgroup>
+
+
+ 		<div class='sharing'>
+
+ 			<!-- Personal -->
+ 			<span class='text'>这是一个无聊的网页,会带你转到另一个无聊的网站. <!--a class="social weixin" href="javascript:"><img class="qrcode" src="https://wx2.sinaimg.cn/mw690/73ed89cbgy1fmzedi6humj20a00a03ya.jpg" alt="微信二维码">公众号:ankylau</a-->公众号:ankylau - <a href='https://weibo.com/liuhuei'>@anky</a> - <a class='small' href='https://anky.cc'><i>ANKY.CC </i></a></span>
+
+ 			<span class='buttons'>
+ 				<a class="fenxiang" href='http://service.weibo.com/share/share.php?url=https://anky.cc/suiji/&title=这是一个无聊的网页,它会带你转到另一个无聊的网站.&pic=http://wx2.sinaimg.cn/large/73ed89cbgy1fmzc356rzaj20ru0rudku.jpg&ralateUid=1944947147&language=zh_cn&appkey=1302593611'  target="_blank">分享到微博</a>
+			</span>
+		</div>
+	</body>
+</html>
